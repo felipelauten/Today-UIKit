@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5501D6E129E0AFB6001E82C6 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D6E029E0AFB6001E82C6 /* ReminderDoneButton.swift */; };
 		5501D6E329E0B076001E82C6 /* RemindersListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D6E229E0B076001E82C6 /* RemindersListViewController+Actions.swift */; };
+		5501D6E529E0BC63001E82C6 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D6E429E0BC63001E82C6 /* ReminderViewController.swift */; };
+		5501D6E829E0BE94001E82C6 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D6E729E0BE94001E82C6 /* ReminderViewController+Row.swift */; };
 		55DE9BBE29C7307500552214 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9BBD29C7307500552214 /* Date+Today.swift */; };
 		55DE9BC129C7355700552214 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9BC029C7355700552214 /* ReminderListViewController+DataSource.swift */; };
 		55DE9BC329C737E800552214 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE9BC229C737E800552214 /* UIColor+Today.swift */; };
@@ -24,6 +26,8 @@
 /* Begin PBXFileReference section */
 		5501D6E029E0AFB6001E82C6 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		5501D6E229E0B076001E82C6 /* RemindersListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemindersListViewController+Actions.swift"; sourceTree = "<group>"; };
+		5501D6E429E0BC63001E82C6 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		5501D6E729E0BE94001E82C6 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 		55DE9BBD29C7307500552214 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		55DE9BC029C7355700552214 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		55DE9BC229C737E800552214 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
@@ -49,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5501D6E629E0BE63001E82C6 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				5501D6E429E0BC63001E82C6 /* ReminderViewController.swift */,
+				5501D6E729E0BE94001E82C6 /* ReminderViewController+Row.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
 		55DE9BBF29C7351600552214 /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,7 @@
 			children = (
 				55FF25E029C5D9BD0045C1F6 /* Models */,
 				55DE9BBF29C7351600552214 /* ListViewController */,
+				5501D6E629E0BE63001E82C6 /* DetailViewController */,
 				55FF25CC29C5D8A10045C1F6 /* AppDelegate.swift */,
 				55FF25CE29C5D8A10045C1F6 /* SceneDelegate.swift */,
 				55FF25D229C5D8A10045C1F6 /* Main.storyboard */,
@@ -174,8 +188,10 @@
 			files = (
 				5501D6E329E0B076001E82C6 /* RemindersListViewController+Actions.swift in Sources */,
 				55DE9BC329C737E800552214 /* UIColor+Today.swift in Sources */,
+				5501D6E529E0BC63001E82C6 /* ReminderViewController.swift in Sources */,
 				55FF25E229C5D9E20045C1F6 /* Remider.swift in Sources */,
 				55DE9BBE29C7307500552214 /* Date+Today.swift in Sources */,
+				5501D6E829E0BE94001E82C6 /* ReminderViewController+Row.swift in Sources */,
 				5501D6E129E0AFB6001E82C6 /* ReminderDoneButton.swift in Sources */,
 				55FF25D129C5D8A10045C1F6 /* ReminderListViewController.swift in Sources */,
 				55FF25CD29C5D8A10045C1F6 /* AppDelegate.swift in Sources */,
