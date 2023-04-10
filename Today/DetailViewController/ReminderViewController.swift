@@ -11,11 +11,19 @@ class ReminderViewController: UICollectionViewController {
     typealias DataSource = UICollectionViewDiffableDataSource<Section, Row>
     typealias Snapshot = NSDiffableDataSourceSnapshot<Section, Row>
 
-    var reminder: Reminder
+    var reminder: Reminder {
+        didSet {
+            onChange(reminder)
+        }
+    }
+    var workingReminder: Reminder
+    var onChange: (Reminder) -> Void
     private var dataSource: DataSource!
 
-    init(reminder: Reminder) {
+    init(reminder: Reminder, onChange: @escaping (Reminder) -> Void) {
         self.reminder = reminder
+        self.workingReminder = reminder
+        self.onChange = onChange
 
         var listConfiguration = UICollectionLayoutListConfiguration(appearance: .insetGrouped)
         listConfiguration.showsSeparators = false
@@ -49,9 +57,9 @@ class ReminderViewController: UICollectionViewController {
     override func setEditing(_ editing: Bool, animated: Bool) {
         super.setEditing(editing, animated: animated)
         if editing {
-            updateSnapshotForEditing()
+            prepareForEditing()
         } else {
-            updateSnapshotForViewing()
+            prepareForViewing()
         }
     }
 
@@ -74,6 +82,16 @@ class ReminderViewController: UICollectionViewController {
         cell.tintColor = .todayPrimaryTint
     }
 
+    @objc func didCancelEdit() {
+        workingReminder = reminder
+        setEditing(false, animated: true)
+    }
+
+    func prepareForEditing() {
+        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(didCancelEdit))
+        updateSnapshotForEditing()
+    }
+
     func updateSnapshotForEditing() {
         var snapshot = Snapshot()
         snapshot.appendSections([.title, .date, .notes])
@@ -81,6 +99,14 @@ class ReminderViewController: UICollectionViewController {
         snapshot.appendItems([.header(Section.date.name), .editableDate(reminder.dueDate)], toSection: .date)
         snapshot.appendItems([.header(Section.notes.name), .editableText(reminder.notes)], toSection: .notes)
         dataSource.apply(snapshot)
+    }
+
+    func prepareForViewing() {
+        navigationItem.leftBarButtonItem = nil
+        if workingReminder != reminder {
+            reminder = workingReminder
+        }
+        updateSnapshotForViewing()
     }
 
     func updateSnapshotForViewing() {

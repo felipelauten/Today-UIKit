@@ -27,7 +27,7 @@
 		55FF25D429C5D8A10045C1F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FF25D229C5D8A10045C1F6 /* Main.storyboard */; };
 		55FF25D629C5D8A20045C1F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FF25D529C5D8A20045C1F6 /* Assets.xcassets */; };
 		55FF25D929C5D8A20045C1F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FF25D729C5D8A20045C1F6 /* LaunchScreen.storyboard */; };
-		55FF25E229C5D9E20045C1F6 /* Remider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF25E129C5D9E20045C1F6 /* Remider.swift */; };
+		55FF25E229C5D9E20045C1F6 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF25E129C5D9E20045C1F6 /* Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,7 @@
 		55FF25D529C5D8A20045C1F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FF25D829C5D8A20045C1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FF25DA29C5D8A20045C1F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55FF25E129C5D9E20045C1F6 /* Remider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remider.swift; sourceTree = "<group>"; };
+		55FF25E129C5D9E20045C1F6 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +137,7 @@
 		55FF25E029C5D9BD0045C1F6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				55FF25E129C5D9E20045C1F6 /* Remider.swift */,
+				55FF25E129C5D9E20045C1F6 /* Reminder.swift */,
 				55DE9BBD29C7307500552214 /* Date+Today.swift */,
 				55DE9BC229C737E800552214 /* UIColor+Today.swift */,
 			);
@@ -222,7 +222,7 @@
 				5596E32929E36FE600C17AC6 /* Configuration+Stateless.swift in Sources */,
 				55DE9BC329C737E800552214 /* UIColor+Today.swift in Sources */,
 				5501D6E529E0BC63001E82C6 /* ReminderViewController.swift in Sources */,
-				55FF25E229C5D9E20045C1F6 /* Remider.swift in Sources */,
+				55FF25E229C5D9E20045C1F6 /* Reminder.swift in Sources */,
 				55DE9BBE29C7307500552214 /* Date+Today.swift in Sources */,
 				5596E32729E36E1C00C17AC6 /* TextFieldContentView.swift in Sources */,
 				5596E32B29E3770700C17AC6 /* TextViewContentView.swift in Sources */,
