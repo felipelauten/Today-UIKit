@@ -20,7 +20,7 @@ extension ReminderViewController {
         var imageName: String? {
             switch self {
             case .date: return "calendar.circle"
-            case .notes: return "square.dot.pencil"
+            case .notes: return "square.and.pencil"
             case .time: return "clock"
             default: return nil
             }
