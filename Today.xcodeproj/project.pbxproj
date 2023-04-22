@@ -100,6 +100,15 @@
 			path = DetailViewController;
 			sourceTree = "<group>";
 		};
+		555B3D9529F3A25D0018978B /* L10n */ = {
+			isa = PBXGroup;
+			children = (
+				555B3D9229F39DE50018978B /* Localizable.strings */,
+				555B3D8F29F39DE50018978B /* InfoPlist.strings */,
+			);
+			path = L10n;
+			sourceTree = "<group>";
+		};
 		5596E32329E36B1300C17AC6 /* ContentVIews */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,14 +156,13 @@
 				5596E32329E36B1300C17AC6 /* ContentVIews */,
 				55DE9BBF29C7351600552214 /* ListViewController */,
 				5501D6E629E0BE63001E82C6 /* DetailViewController */,
+				555B3D9529F3A25D0018978B /* L10n */,
 				55FF25CC29C5D8A10045C1F6 /* AppDelegate.swift */,
 				55FF25CE29C5D8A10045C1F6 /* SceneDelegate.swift */,
 				55FF25D229C5D8A10045C1F6 /* Main.storyboard */,
 				55FF25D529C5D8A20045C1F6 /* Assets.xcassets */,
 				55FF25D729C5D8A20045C1F6 /* LaunchScreen.storyboard */,
 				55FF25DA29C5D8A20045C1F6 /* Info.plist */,
-				555B3D9229F39DE50018978B /* Localizable.strings */,
-				555B3D8F29F39DE50018978B /* InfoPlist.strings */,
 			);
 			path = Today;
 			sourceTree = "<group>";
