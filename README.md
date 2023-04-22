@@ -17,7 +17,7 @@ The motivation is, as the big chunk of the apps are in UIKit, developers who kno
 ## What is the state of this repo?
 
 As the tutorial in the link above, it is complete.
-Additionally, I added localzation to my native language _Brazilian Portuguese_.
+Additionally, I added localization to my native language _Brazilian Portuguese_.
 I plan to add a few extra small improvements to the UI in the near future.
 
 ## And then?
