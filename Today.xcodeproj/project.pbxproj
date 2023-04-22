@@ -12,6 +12,8 @@
 		5501D6E529E0BC63001E82C6 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D6E429E0BC63001E82C6 /* ReminderViewController.swift */; };
 		5501D6E829E0BE94001E82C6 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5501D6E729E0BE94001E82C6 /* ReminderViewController+Row.swift */; };
 		555B3D8C29F38DF50018978B /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555B3D8B29F38DF50018978B /* EKReminder+Reminder.swift */; };
+		555B3D9129F39DE50018978B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 555B3D8F29F39DE50018978B /* InfoPlist.strings */; };
+		555B3D9429F39DE50018978B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 555B3D9229F39DE50018978B /* Localizable.strings */; };
 		555C3B9129EBE94E007DFDEF /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C3B9029EBE94E007DFDEF /* ReminderListStyle.swift */; };
 		555C3B9329EC94DC007DFDEF /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C3B9229EC94DC007DFDEF /* ProgressHeaderView.swift */; };
 		5567DE0629E1D3130060AB61 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5567DE0529E1D3130060AB61 /* ReminderViewController+Section.swift */; };
@@ -44,6 +46,10 @@
 		5501D6E429E0BC63001E82C6 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		5501D6E729E0BE94001E82C6 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 		555B3D8B29F38DF50018978B /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
+		555B3D8D29F39BDF0018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		555B3D8E29F39BDF0018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		555B3D9029F39DE50018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		555B3D9329F39DE50018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		555C3B9029EBE94E007DFDEF /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		555C3B9229EC94DC007DFDEF /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		5567DE0529E1D3130060AB61 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
@@ -147,6 +153,8 @@
 				55FF25D529C5D8A20045C1F6 /* Assets.xcassets */,
 				55FF25D729C5D8A20045C1F6 /* LaunchScreen.storyboard */,
 				55FF25DA29C5D8A20045C1F6 /* Info.plist */,
+				555B3D9229F39DE50018978B /* Localizable.strings */,
+				555B3D8F29F39DE50018978B /* InfoPlist.strings */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -210,6 +218,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
 			);
 			mainGroup = 55FF25C029C5D8A10045C1F6;
 			productRefGroup = 55FF25CA29C5D8A10045C1F6 /* Products */;
@@ -226,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555B3D9429F39DE50018978B /* Localizable.strings in Resources */,
 				55FF25D929C5D8A20045C1F6 /* LaunchScreen.storyboard in Resources */,
+				555B3D9129F39DE50018978B /* InfoPlist.strings in Resources */,
 				55FF25D629C5D8A20045C1F6 /* Assets.xcassets in Resources */,
 				55FF25D429C5D8A10045C1F6 /* Main.storyboard in Resources */,
 			);
@@ -271,10 +282,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		555B3D8F29F39DE50018978B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555B3D9029F39DE50018978B /* pt-BR */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		555B3D9229F39DE50018978B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555B3D9329F39DE50018978B /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		55FF25D229C5D8A10045C1F6 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				55FF25D329C5D8A10045C1F6 /* Base */,
+				555B3D8D29F39BDF0018978B /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -283,6 +311,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				55FF25D829C5D8A20045C1F6 /* Base */,
+				555B3D8E29F39BDF0018978B /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -294,6 +323,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -354,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
