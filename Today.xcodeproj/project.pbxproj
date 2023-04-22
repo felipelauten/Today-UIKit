@@ -50,6 +50,7 @@
 		555B3D8E29F39BDF0018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		555B3D9029F39DE50018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		555B3D9329F39DE50018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		555B3D9629F3A8900018978B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		555C3B9029EBE94E007DFDEF /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		555C3B9229EC94DC007DFDEF /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		5567DE0529E1D3130060AB61 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
@@ -136,6 +137,7 @@
 		55FF25C029C5D8A10045C1F6 = {
 			isa = PBXGroup;
 			children = (
+				555B3D9629F3A8900018978B /* README.md */,
 				55FF25CB29C5D8A10045C1F6 /* Today */,
 				55FF25CA29C5D8A10045C1F6 /* Products */,
 			);
