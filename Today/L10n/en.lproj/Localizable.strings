@@ -1,0 +1,73 @@
+/* Date and time format string */
+"%@ at %@" = "%1$@ às %2$@";
+
+/* progress percentage value format */
+"%d percent" = "%d por cento";
+
+/* a reminder has no due date error description */
+"A reminder has no due date." = "Um lembrete não possui data.";
+
+/* Add button accessibility label */
+"Add reminder" = "Adicionar lembrete";
+
+/* Add reminder view controller title */
+"Add Reminder" = "Adicionar lembrete";
+
+/* All style name */
+"All" = "Todos";
+
+/* Reminder completed value */
+"Completed" = "Finalizado";
+
+/* Title section dade */
+"Date" = "Data";
+
+/* Delete action title */
+"Delete" = "Remover";
+
+/* Error alert title */
+"Error" = "Erro";
+
+/* failed reading calendar item error description */
+"Failed to read a calendar item." = "Falha ao ler um item do calendário.";
+
+/* failed reading reminders error description */
+"Failed to read reminders." = "Falha ao ler lembretes.";
+
+/* Future style name */
+"Future" = "Futuros";
+
+/* Reminder not completed value */
+"Not completed" = "Imcompleto";
+
+/* Title section notes */
+"Notes" = "Notas";
+
+/* Alert OK button title */
+"OK" = "OK";
+
+/* Progress view accessibility label */
+"Progress" = "Progresso";
+
+/* Reminder view controller title */
+"Reminder" = "Lembrete";
+
+/* access denied error description */
+"The app doesn't have permission to read reminders." = "O aplicativo não tem permissão de acesso para ler lembretes.";
+
+/* access restricted error description */
+"This device doesn't allow access to reminders." = "Este dispositivo não permite acesso a lembretes.";
+
+/* Title section name */
+"Title" = "Título";
+
+/* Today due date description
+   Today style name */
+"Today" = "Hoje";
+
+/* Today at time formatted string */
+"Today at %@" = "Hoje às %@";
+
+/* Reminder done button accessibility label */
+"Toggle completion" = "Marcar completo/incompleto";
+

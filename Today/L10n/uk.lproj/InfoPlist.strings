@@ -1,0 +1,6 @@
+/* Bundle name */
+"CFBundleName" = "Hoje\n";
+
+/* Privacy - Reminders Usage Description */
+"NSRemindersUsageDescription" = "Os seus lembretes ajudam você a manter o ritmo certo.";
+

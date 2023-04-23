@@ -45,6 +45,14 @@
 		5501D6E229E0B076001E82C6 /* RemindersListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemindersListViewController+Actions.swift"; sourceTree = "<group>"; };
 		5501D6E429E0BC63001E82C6 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		5501D6E729E0BE94001E82C6 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		554CBB1729F53A7D00D1A4FD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		554CBB1829F53A7D00D1A4FD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		554CBB1929F53A8C00D1A4FD /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		554CBB1A29F53A8C00D1A4FD /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		554CBB1B29F53ABE00D1A4FD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		554CBB1C29F53AC100D1A4FD /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		554CBB1D29F53AC500D1A4FD /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		554CBB1E29F53AC600D1A4FD /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		555B3D8B29F38DF50018978B /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 		555B3D8D29F39BDF0018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
 		555B3D8E29F39BDF0018978B /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
@@ -229,6 +237,8 @@
 				en,
 				Base,
 				"pt-BR",
+				pl,
+				uk,
 			);
 			mainGroup = 55FF25C029C5D8A10045C1F6;
 			productRefGroup = 55FF25CA29C5D8A10045C1F6 /* Products */;
@@ -296,6 +306,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				555B3D9029F39DE50018978B /* pt-BR */,
+				554CBB1D29F53AC500D1A4FD /* uk */,
+				554CBB1E29F53AC600D1A4FD /* pl */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -304,6 +316,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				555B3D9329F39DE50018978B /* pt-BR */,
+				554CBB1B29F53ABE00D1A4FD /* pl */,
+				554CBB1C29F53AC100D1A4FD /* uk */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -313,6 +327,8 @@
 			children = (
 				55FF25D329C5D8A10045C1F6 /* Base */,
 				555B3D8D29F39BDF0018978B /* pt-BR */,
+				554CBB1729F53A7D00D1A4FD /* pl */,
+				554CBB1929F53A8C00D1A4FD /* uk */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -322,6 +338,8 @@
 			children = (
 				55FF25D829C5D8A20045C1F6 /* Base */,
 				555B3D8E29F39BDF0018978B /* pt-BR */,
+				554CBB1829F53A7D00D1A4FD /* pl */,
+				554CBB1A29F53A8C00D1A4FD /* uk */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -455,6 +473,7 @@
 				DEVELOPMENT_TEAM = MLDYC6247F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSRemindersUsageDescription = "Your reminders can help you stay on track.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -484,6 +503,7 @@
 				DEVELOPMENT_TEAM = MLDYC6247F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSRemindersUsageDescription = "Your reminders can help you stay on track.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
